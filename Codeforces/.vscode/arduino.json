@@ -1,4 +1,0 @@
-{
-    "port": "/dev/cu.usbmodem14101",
-    "board": "arduino:avr:megaADK"
-}

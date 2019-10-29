@@ -4,7 +4,7 @@ using namespace std;
 #define maxN 100
 #define maxTime 100000
 
-float buses[maxN][2];
+int buses[maxN][2];
 
 int main() {
   float b, t, r=0;
@@ -14,7 +14,7 @@ int main() {
     cin>>buses[i][0] >> buses[i][1];    
   }
 
-  int currentArrival = maxTime;
+  int currentArrival = INT_MAX;
   for(int i=0; i<b; ++i){
     // int n;
     // if((t-buses[i][0])%buses[i][1] == 0){

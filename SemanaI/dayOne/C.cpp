@@ -15,17 +15,17 @@ int main() {
   if(!bIsEven) {
     for(int i=0; i<k; ++i) {
       bool currentIsEven = a[i]%2 == 0;
-      cout<<a[i]<<endl;
-      cout<<"cIE "<<currentIsEven<<endl; 
+      // cout<<a[i]<<endl;
+      // cout<<"cIE "<<currentIsEven<<endl; 
       currentIsEven = currentIsEven || bIsEven;
-      cout<<"cIE "<<currentIsEven<<endl; 
+      // cout<<"cIE "<<currentIsEven<<endl; 
       even = (even && currentIsEven) || (!even && !currentIsEven);
-      if(even){
-        cout<<  "even"<<endl;
-      } else {
-        cout<<  "odd"<<endl;
+      // if(even){
+      //   cout<<  "even"<<endl;
+      // } else {
+      //   cout<<  "odd"<<endl;
 
-      }
+      // }
     }
 
   } else {
